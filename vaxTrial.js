@@ -40,7 +40,6 @@ const vaxTrail = (ppl) => {
     ),
     D: sortedPeople.filter((item) => item.temperature > 100),
   };
-  console.log(filterdList);
   return filterdList;
 };
 
